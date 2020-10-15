@@ -1,0 +1,49 @@
+body{
+  background: #1f2235;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Main heandings font*/
+.m-heading{
+  font-family: "Roboto Slab", serif;
+}
+.navigation-link{
+  border: 2px solid transparent;
+}
+.navigation-link:hover{
+  text-decoration: none;
+  border-bottom: 2px solid #f5ba09;
+  transition: 0.5s ease;
+}
+.main-container{
+  min-height: 100vh;
+  /* padding-top: 5rem; */
+}
+.main_row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_row h3{
+  font-size:5rem;
+}
+.main_row img{
+  width:500px;
+  height:500px;
+}
+#about{
+  background:#313552;
+  border-radius:0.5rem;
+}
+.card{
+  border-bottom: 8px solid #f5ba09;
+}
+#contacts{
+  background: #313552;
+}
+.media_link{
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
